@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fraghome_botton"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_autoDeleteRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto Delete Record" />
+
+        <RadioGroup
+            android:id="@+id/rg_autodel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/autodel0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dailly"
+                android:textSize="10sp" />
+
+            <RadioButton
+                android:id="@+id/autodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weekly"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/autodel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monthly"
+                android:textSize="10sp" />
+
+            <RadioButton
+                android:id="@+id/autodel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="AfterSend"
+                android:textSize="10sp" />
+
+            <RadioButton
+                android:id="@+id/autodel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OFF"
+                android:textSize="10sp" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cb_autosendmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto Send Mail " />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dip" >
+
+            <TextView
+                android:id="@+id/tv_mail1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mail1:" />
+
+            <EditText
+                android:id="@+id/et_mail1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dip" >
+
+            <TextView
+                android:id="@+id/tv_mail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mail2:" />
+
+            <EditText
+                android:id="@+id/et_mail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioGroup
+                android:id="@+id/rg_automail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/automail0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Dailly"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/automail1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weekly"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/automail2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Monthly"
+                    android:textSize="12sp" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/et_mailtime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ems="3"
+                android:numeric="integer"
+                android:text="18"
+                android:textSize="16sp" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text=":" />
+
+            <EditText
+                android:id="@+id/et_mailtime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ems="3"
+                android:numeric="integer"
+                android:text="00"
+                android:textSize="16sp" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/cb_autoupload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Auto Upload " />
+
+            <EditText
+                android:id="@+id/et_autoupload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ems="14"
+                android:textSize="16sp" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/cb_autosave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Auto Save " />
+
+            <TextView
+                android:id="@+id/tv_autosave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/sdcard/inurse/record/" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tv_fileformat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dip"
+                android:text="File Format:" />
+
+            <Spinner
+                android:id="@+id/sp_fileformat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/fileformat" />
+            
+            <TextView
+                android:id="@+id/tv_separate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dip"
+                android:text="Separate By:" />
+
+            <Spinner
+                android:id="@+id/sp_separate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/separate" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tv_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Field: "
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb_fielduid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="UserID"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/cb_fieldfname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="FirstName"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/cb_fieldlname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="LastName"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/cb_fielddevtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dip"
+                android:checked="true"
+                android:text="Devicetype"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/cb_fielddevmac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="DeviceID"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/cb_fieldceliangtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Date/Time"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/cb_fieldvalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dip"
+                android:checked="true"
+                android:text="Value"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/cb_fieldmode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Mode"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/cb_fieldunit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Unit"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/cb_fieldnote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Note"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

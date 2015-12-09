@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginTop="4dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_cloudmail"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_gravity="center"
+            android:background="@drawable/mail_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginTop="4dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_cloudsave"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_gravity="center"
+            android:background="@drawable/save_button_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginTop="4dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_cloudupload"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_gravity="center"
+            android:background="@drawable/upload_selector"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginTop="4dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_cloudprint"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_gravity="center"
+            android:background="@drawable/print_selector"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginTop="4dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_cloudshare"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_gravity="center"
+            android:background="@drawable/share_selector"
+            android:enabled="false" />
+    </LinearLayout>
+
+</LinearLayout>

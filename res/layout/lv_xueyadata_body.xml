@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_xueyacloud"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/list_xueyacloud_xuanzhong"
+        android:layout_width="32dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:gravity="center"
+        android:text="√"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_xueyacloud_id"
+        android:layout_width="48dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="A0001"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_xueyacloud_sys"
+        android:layout_width="65dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="115"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_xueyacloud_dia"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="65"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_xueyacloud_pul"
+        android:layout_width="40dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="62"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_xueyadatanote"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:layout_gravity="center"
+        android:layout_marginLeft="4dip"
+        android:background="@drawable/note_button1" />
+</LinearLayout>

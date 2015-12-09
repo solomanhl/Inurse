@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_user"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/list_user_xuanzhong"
+        android:layout_width="32dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:text="√"
+        android:gravity="center"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_uid"
+        android:layout_width="48dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="A10103"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_username"
+        android:layout_width="64dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="Jonh Smith"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_tel"
+        android:layout_width="48dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="13800000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_mail"
+        android:layout_width="64dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="ddifuldif@163.com"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="There is nothing to say!"
+        android:textSize="12sp" />
+
+</LinearLayout>

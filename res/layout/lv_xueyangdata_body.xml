@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_xueyangcloud"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/list_xueyangcloud_xuanzhong"
+        android:layout_width="32dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:gravity="center"
+        android:text="√"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_xueyangcloud_id"
+        android:layout_width="48dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="A0001"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_xueyangcloud_time"
+        android:layout_width="65dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="2015"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_xueyangcloud_o2"
+        android:layout_width="40dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="98"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_xueyangcloud_pul"
+        android:layout_width="40dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:text="62"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_xueyangdatanote"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:layout_gravity="center"
+        android:layout_marginLeft="4dip"
+        android:background="@drawable/note_button1" />
+</LinearLayout>

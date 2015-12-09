@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottombar"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_fanhui"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_gravity="center"
+            android:background="@drawable/back_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_celianghome"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_gravity="center"
+            android:background="@drawable/home" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_graph"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_gravity="center"
+            android:background="@drawable/graph" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_data"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_gravity="center"
+            android:background="@drawable/data" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_celianghelp"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_gravity="center"
+            android:background="@drawable/help" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_celiangsetting"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_gravity="center"
+            android:background="@drawable/setting" />
+    </LinearLayout>
+
+</LinearLayout>

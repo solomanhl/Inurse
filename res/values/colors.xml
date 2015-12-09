@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="np_numberpicker_selection_divider">#ff1c96e2</color>
+    <color name="Red">#ffff0000</color>
+    <color name="White">#ffffffff</color>
+    <color name="Blue">#ff0000ff</color>
+    <color name="Green">#ff00ff00</color>
+    <color name="Yellow">#ffffff00</color>
+    <color name="Orange">#ffffa500</color>
+    <color name="Black">#ff000000</color>
+    <color name="DarkSlateGray">#ff2f4f4f</color>
+    <color name="DimGray">#ff696969</color>
+    <color name="sandybrown">#fff4a460</color>
+    <color name="linen">#fffaf0e6</color>
+    <color name="khaki">#fff0e68c</color>
+    <color name="brown">#ffa52a2a</color>
+    <color name="olive">#ff808000</color>
+    <color name="darkgoldenrod">#ffb8860b</color>
+    <color name="darkkhaki">#ffbdb76b</color>
+    <color name="silver">#ffc0c0c0</color>
+    <color name="BurlyWood">#ffdeb887</color>
+    <color name="CornflowerBlue">#ff6495ed</color>
+    <color name="LightSteelBlue">#ffb0c4de</color>
+    <color name="Tan">#ffd2b48c</color>
+    <color name="bantouming">#20000000</color>
+    <color name="bantouming1">#40000000</color>
+    <color name="bantouming2">#80000000</color>
+    <color name="bantouming3">#b0000000</color>
+    <color name="Gainsboro">#ffdcdcdc</color>
+    <color name="LightGrey">#ffd3d3d3</color>
+    <color name="Silver">#ffc0c0c0</color>
+    <color name="DarkGray">#ffa9a9a9</color>
+    <color name="LightSkyBlue">#ff87cefa</color>
+    <color name="SteelBlue">#ff4682b4</color>
+</resources>

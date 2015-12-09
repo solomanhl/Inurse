@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/cb_themocloud_quanxuan"
+        android:layout_width="32dip"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="48dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:text="ID"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:layout_width="40dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:text="Mode"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:layout_width="40dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:text="Value"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:text="Time"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    
+
+</LinearLayout>
