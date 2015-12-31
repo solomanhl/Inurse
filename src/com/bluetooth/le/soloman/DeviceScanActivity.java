@@ -256,7 +256,7 @@ public class DeviceScanActivity extends ListActivity {
 					+Utils.bytesToHexString(characteristic.getValue()));
 			
 			switch (characteristic.getValue()[0]) {
-			case (byte) 0xFA:	//实时温度数据
+			case (byte) 0xFA:	//实时温度数据，或者返回模式 单位
 				appState.calcTemp(characteristic.getValue()); //解析温度
 				appState.dataArrive = true;
 				break;

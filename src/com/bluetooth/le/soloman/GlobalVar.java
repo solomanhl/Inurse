@@ -246,7 +246,8 @@ public class GlobalVar extends Application{
 		c1[2] = 0x02;
 		c1[3] = mode; // body surface room
 		c1[4] = unit; // ℃ ℉  
-		c1[5] = (byte) (c[3] ^ c[4]);
+//		c1[5] = (byte) (c[3] ^ c[4]);
+		c1[5] = (byte) (mode + unit);
 		c1[6] = (byte) 0xff;
 
 		sendData(gattCharacteristic, c1);
